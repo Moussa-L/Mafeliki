@@ -3,8 +3,10 @@
 body {
             background: #f2e3e3;
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
+            margin: 10px;
+            padding: 20px;
+            
+            
         }
 
         header {
@@ -104,48 +106,27 @@ body {
    
 }
 form{/*vas selectionner la balise form (toutes) côter htlm*/
-    background-color: rgb(211, 181, 181); /*colorie l'arrière plan du formulaire*/
-}
-
-input[type=text] , [type=date],[type=email],[type=radio]{/*vas me selectionner tout les balise input de type text
-    ,date,email et radio*/
-
-    padding: 10px;/*ajouter un espace a l'interieur de la balised'input*/
-    margin: 7px;/*vas décaler*/
-    border-radius: 10px;/*vas nous permettre d'arrondir les angles*/
-    
-
-}
- input[type=date]{/*vas me selectionner tout les balise input de type text*/
-    padding: 10px ;/*ajouter un espace a l'interieur de la balised'input*/
-    margin: 7px;/*vas décaler*/
+    background-color: #4a2e2e; /*colorie l'arrière plan du formulaire*/
+    width: 90%; /*vas occuper 90% de la largeur de la page*/
+    max-width: 600px; /*vas limiter la largeur a 600px*/
     border-radius: 10px; /*vas nous permettre d'arrondir les angles*/
- }
+    display: flex;
+    flex-direction: column; /*pour aligner les éléments du formulaire en colonne*/
+    gap: 20px; /*vas ajouter un espace entre les éléments du formulaire*/
+    padding: 30px; /*vas ajouter un espace à l'intérieur du formulaire*/
+}
 
-  
- input[type=email]{/*vas me selectionner tout les balise input de type email*/
-    padding: 10px ;/*ajouter un espace a l'interieur de la balised'input*/
-    margin: 7px;/*vas décaler*/
-    border-radius: 10px;/*vas nous permettre d'arrondir les angles*/
-    
- }
 
- button[type=submit]{/*vas me selectionner tout les balise button de type submit*/
-    margin-bottom: 15px; /*vas décaler le bouton*/
-    margin-left: 5px;/*vas les décaler vers la gauche*/
 
- }
-    input[type=tel]{/*vas me selectionner tout les balise input de type tel*/
-        padding: 10px ;/*ajouter un espace a l'interieur de la balised'input*/
-        margin: 7px;/*vas décaler*/
-        border-radius: 10px;/*vas nous permettre d'arrondir les angles*/
-        
-    }   
-
-    textarea[id=commentaire]{/*vas me selectionner tout les balise textarea*/
-        padding: 10px ;/*ajouter un espace a l'interieur de la balised'textarea*/
-        margin: 7px;/*vas décaler*/
-        border-radius: 10px;/*vas nous permettre d'arrondir les angles*/
-        text-align: center; /*centrer le texte à l'intérieur de la balise textarea*/
-        
+    form input,form select, form textarea{/*vas me selectionner tout les balise input ,select et textarea à l'intérieur de la balise form*/
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;  
+             
     }
+form {
+         width: 70%;
+            margin: 40px auto;
+}
