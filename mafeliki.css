@@ -6,6 +6,7 @@ table,th,td{
 body{
     background-color: rgb(248, 237, 237);
     color: rgb(255, 255, 255);
+    font-size:16px;
 }
 *{
 margin:0;
@@ -95,3 +96,92 @@ footer{
     padding: 10px;
     font-size: 25px;/*la taille de la police */
 }
+
+body {
+            background: #f2e3e3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #4a2e2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #4a2e2e;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4a2e2e;
+            font-weight: bold;
+            padding: 6px 10px;
+            border-radius: 4px;
+        }
+
+        nav ul li a:hover {
+            background: #4a2e2e;
+            color: white;
+        }
+
+        /* TABLEAU DES PRODUITS */
+        .product-table {
+            width: 95%;
+            margin: 30px auto;
+            border-collapse: collapse;
+        }
+
+        .product-table th {
+            background: #4a2e2e;
+            color: white;
+            padding: 12px;
+            font-size: 18px;
+        }
+
+        .product-table td {
+            border: 1px solid #4a2e2e;
+            padding: 15px;
+            vertical-align: top;
+            background: #fff7f7;
+        }
+
+        .product-table img {
+            width: 100%;
+            max-width: 280px;
+            border-radius: 8px;
+        }
+
+        /* TABLEAU DES GENERATEURS */
+        .data-table {
+            width: 70%;
+            margin: 40px auto;
+            border-collapse: collapse;
+        }
+
+        .data-table th {
+            background: #4a2e2e;
+            color: white;
+            padding: 10px;
+        }
+
+        .data-table td {
+            border: 1px solid #4a2e2e;
+            padding: 10px;
+            background: #fff7f7;
+        }
