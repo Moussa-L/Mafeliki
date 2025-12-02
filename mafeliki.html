@@ -118,8 +118,129 @@
         <td>MDERE</td><td>ZENA</td><td>Brèdes MORINGA</td><td>PAMANDZI</td></tr>
         <td>YOUNOUSSA</td><td>BAMANA</td><td>Brèdes FEUILLE DE PATATE DOUCE</td><td>KANI-KELI</td></tr>
 </table>
+<!--titre de mon formulaire-->
+      <h2> Formulaire d'inscptions </h2>
 
 
+    <!--la balise qui encadre tous les champs du formulaire 
+    (inputs, boutons…).-->
+    <form>
+
+    <div >
+        <!--nom des cases-->
+        <label for="nom">Nom :</label>
+        <!--insertions de text-->
+        <input type="text" name="nom" id="nom" >
+
+        <!--nom des cases-->
+        <label for="prénom">Prénom(s) :</label>
+
+        <!--insertions de text-->
+        <input type="text" name=prénom id="prénom" > 
+      
+    </div>
+
+    <br><br>
+
+
+
+  <div >
+      <!--nom des cases-->
+      <label for="dateNaissance"> Date de Naissance :</label>
+
+      <!--insertions de text-->
+      <input type="date" name="dateNaissance" id="dateNaissance">
+
+
+      <!--nom des cases-->
+      <label for="village"> Village :</label>
+
+      <!--insertions de text-->
+      <input type="text" name=village id="village">
+  </div> 
+
+
+  <div>
+
+
+      <!--Saisis d'email-->
+      <label for="email"> Email : </label>
+      <input type="email" name="email" id="email">
+
+      <!--Saisis de téléphone-->
+      <label for="telephone"> Téléphone : </label>
+      <input type="tel" name="telephone" id="telephone">
+      
+  <br><br>
+  <div>
+    <!-- Groupe des fruits -->
+<div>
+    <label><strong>Fruits :</strong></label><br><br>
+
+    <!-- Chaque ligne correspond à un fruit -->
+    <input type="checkbox" name="pomme" id="pomme">
+    <label for="pomme"> Pomme </label>
+
+    <input type="checkbox" name="banane" id="banane">
+    <label for="banane"> Banane </label>
+
+    <input type="checkbox" name="orange" id="orange">
+    <label for="orange"> Orange </label>
+
+    <input type="checkbox" name="fraise" id="fraise">
+    <label for="fraise"> Fraise </label>
+
+    <input type="checkbox" name="raisin" id="raisin">
+    <label for="raisin"> Raisin </label>
+</div>
+
+<br>
+
+<!-- Groupe des légumes -->
+<div>
+    <label><strong>Légumes :</strong></label><br><br>
+
+    <!-- Chaque ligne correspond à un légume -->
+    <input type="checkbox" name="carotte" id="carotte">
+    <label for="carotte"> Carotte </label>
+
+    <input type="checkbox" name="tomate" id="tomate">
+    <label for="tomate"> Tomate </label>
+
+    <input type="checkbox" name="concombre" id="concombre">
+    <label for="concombre"> Concombre </label>
+
+    <input type="checkbox" name="courgette" id="courgette">
+    <label for="courgette"> Courgette </label>
+
+    <input type="checkbox" name="poivron" id="poivron">
+    <label for="poivron"> Poivron </label> <br><br>
+</div>
+
+<div>
+<label for="commentaire">Commentaire :</label>
+<textarea id="commentaire" name="commentaire" rows="5" cols="40"></textarea>
+</div>
+
+
+
+
+
+ 
+  </div>
+  <br><br>
+    
+
+    <div>
+      <!--bouton envoyer-->
+      <button type="submit">Envoyer</button>
+    </div>
+
+    <!--Fin de formulaire-->  
+    </form>
+
+
+   
 
 
 
