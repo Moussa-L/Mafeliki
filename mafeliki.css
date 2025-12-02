@@ -1,101 +1,4 @@
-table,th,td{
-    background-color:#d4c5c5;
-    border: 1px solid #8a8181;
-   color:black
-}
-body{
-    background-color: rgb(248, 237, 237);
-    color: rgb(255, 255, 255);
-    font-size:16px;
-}
-*{
-margin:0;
-padding: 0;
-}
 
-nav{
-    width: 100%;
-    margin: 0px auto 40px auto;
-    background-color: white;
-    position: sticky;
-    top: 0%;
-}
-
-nav li{
-    width: 25%;
-    text-align: center;
-    float: left;
-}
-
-nav ul:{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a {
-    display: block;
-    text-decoration: none;
-    color: #000;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
-}
-
-nav a:hover{
-    color: orange;
-    border-bottom: 2px solid gold;
-}
-
-*{
-    box-sizing: border-box;/*tout mettre dans une boîte*/
-}
-/*Mise en forme de l'entête*/
-header{
-    background-color:  #dad5d5; /*couleur de l'arrière plan*/
-    padding: 10px; /*ecartement de (background-color) l'arrière plan*/
-    text-align: center;/*le texte est alligné au centre*/
-    color: rgb(255, 255, 255); /*couleur du texte*/
-    font-size: 30px; /*la taille de la police */
-}
- /*Mise en forme de la section*/
-
-section{
-    /*Optimise l'affichage sur different taille d'écrant*/
-    display: -webkit-flex;
-    display: flex;
-} 
-
-/*mise en forme de la balise nav*/
-nav{
-    -webkit-box-flex: 1;
-    -ms-flex:1 ;
-    flex: 1;
-    background:#ccc;
-    padding: 20px; 
-}
-
-/*Mise en forme de la liste UL de la balise <nav>*/
-nav ul {
-list-style-type: none; /*Je retire le bouton de la liste*/
-padding: 0;
-}
-
-/*Mise en forme de l'article */
-article{
-    -webkit-box-flex: 3;
-    -ms-flex: 3;
-    flex: 3;
-    background-color: rgb(58, 36, 36);
-    padding: 10px;
-}
-
-footer{
-    text-align: center;
-    background-color: #777;
-    color: aliceblue;
-    padding: 10px;
-    font-size: 25px;/*la taille de la police */
-}
 
 body {
             background: #f2e3e3;
@@ -105,15 +8,19 @@ body {
         }
 
         header {
-            background: #4a2e2e;
+            background: #674747;
             color: white;
             padding: 20px;
             text-align: center;
         }
 
-        h1, h2 {
-            color: #4a2e2e;
+         h1 {
+            color: #fcfcfc;
             text-align: center;
+        }
+        
+        h2 {
+               margin-top: 30px;
         }
 
         nav ul {
@@ -129,14 +36,14 @@ body {
 
         nav ul li a {
             text-decoration: none;
-            color: #4a2e2e;
+            color: #674747;
             font-weight: bold;
             padding: 6px 10px;
             border-radius: 4px;
         }
 
         nav ul li a:hover {
-            background: #4a2e2e;
+            background:#674747;
             color: white;
         }
 
